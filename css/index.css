@@ -1,0 +1,261 @@
+.fontfamily-open
+{
+    font-family: 'Open Sans', sans-serif;
+}
+.color-blue
+{
+    color: #5c61f2;
+}
+.color-gray
+{
+    color: gray;
+}
+.color-white
+{
+    color: #ffffff;
+}
+.bg-gray
+{
+ background-color: #ebebf7;
+}
+.bg-red
+{
+    background-color: #f52a59;
+}
+.bg-blue2
+{
+    background-color: #6ce6e6;
+}
+
+.bg-blue
+{
+    background-color: #05b5b5;
+}
+.bg-dark
+{
+    background-color: #072929;
+}
+
+
+
+
+
+
+.f-s20
+{
+    font-size: 20px;
+
+}
+.tab1,.tab2,.tab3
+{
+    display: none;
+}
+#acc1-c1:checked ~  .cards .tab-con .tab1
+{
+    display: block;
+}
+#acc1-c2:checked ~  .cards .tab-con .tab2
+{
+    display: block;
+}
+
+#acc1-c3:checked ~  .cards .tab-con .tab3
+{
+    display: block;
+}
+.border-radius4
+{
+    border-radius: 4px;
+}
+.border1
+{
+    border-width: 1px;
+    border-style: solid;
+    border-top: none;
+}
+.border-gray
+{
+    border-color: #7777;
+   
+}
+.sec1-pad1
+{
+    padding: 2rem;
+}
+.d-grid
+{
+    display: grid;
+
+}
+.tab-con
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    
+}
+.cards
+{
+    display: grid;
+    grid-template-rows: repeat(2,auto);
+    row-gap: 0.5rem;
+}
+.sec1-pad2
+{
+    padding: 0.5rem 1rem;
+}
+.section1 input
+{
+    display: none;
+}
+.section1 label
+{
+    cursor: pointer;
+}
+
+.lab-grid
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
+    column-gap: 0.5rem;
+}
+
+
+.acc2-tab1,.acc2-tab2,.acc2-tab3
+{
+    display: none;
+}
+
+#acc2-c1:checked ~  .cards .tab-con .acc2-tab1
+{
+    display: block;
+}
+#acc2-c2:checked ~  .cards .tab-con .acc2-tab2
+{
+    display: block;
+}
+
+#acc2-c3:checked ~  .cards .tab-con .acc2-tab3
+{
+    display: block;
+}
+
+
+
+.acc3-tab1,.acc3-tab2,.acc3-tab3
+{
+    display: none;
+}
+
+#acc3-c1:checked ~  .cards .tab-con .acc3-tab1
+{
+    display: block;
+}
+#acc3-c2:checked ~  .cards .tab-con .acc3-tab2
+{
+    display: block;
+}
+
+#acc3-c3:checked ~  .cards .tab-con .acc3-tab3
+{
+    display: block;
+}
+.border2
+{
+    border-width: 2px;
+    border-style: solid;
+
+}
+
+.acc4-tab1,.acc4-tab2,.acc4-tab3
+{
+    display: none;
+}
+
+#acc4-c1:checked ~  .cards .tab-con .acc4-tab1
+{
+    display: block;
+}
+#acc4-c2:checked ~  .cards .tab-con .acc4-tab2
+{
+    display: block;
+}
+
+#acc4-c3:checked ~  .cards .tab-con .acc4-tab3
+{
+    display: block;
+}
+
+
+
+
+.acc5-tab1,.acc5-tab2,.acc5-tab3
+{
+    display: none;
+}
+
+#acc5-c1:checked ~  .cards .tab-con .acc5-tab1
+{
+    display: block;
+}
+#acc5-c2:checked ~  .cards .tab-con .acc5-tab2
+{
+    display: block;
+}
+
+#acc5-c3:checked ~  .cards .tab-con .acc5-tab3
+{
+    display: block;
+}
+
+
+
+
+.acc6-tab1,.acc6-tab2,.acc6-tab3
+{
+    display: none;
+}
+
+#acc6-c1:checked ~  .cards .tab-con .acc6-tab1
+{
+    display: block;
+}
+#acc6-c2:checked ~  .cards .tab-con .acc6-tab2
+{
+    display: block;
+}
+
+#acc6-c3:checked ~  .cards .tab-con .acc6-tab3
+{
+    display: block;
+}
+
+
+.acc7-tab1,.acc7-tab2,.acc7-tab3
+{
+    display: none;
+}
+
+#acc7-c1:checked ~  .cards .tab-con .acc7-tab1
+{
+    display: block;
+}
+#acc7-c2:checked ~  .cards .tab-con .acc7-tab2
+{
+    display: block;
+}
+
+#acc7-c3:checked ~  .cards .tab-con .acc7-tab3
+{
+    display: block;
+}
+
+
+.last
+{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 0.5rem;
+}
+
+
